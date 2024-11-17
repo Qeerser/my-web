@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './App.css'
 
 function App() {
@@ -12,11 +13,15 @@ function App() {
 </label>
     <h1 className='font-extrabold my-10' >Welcome Qeerser Personal</h1>
        <nav>
+        
             <div className="overflow-x-hidden flex gap-2 xs:gap-4 text-xl text-slate-400 font-medium uppercase tracking-wide justify-center items-center mt-8">
-          
-            <a className="text-xl font-semibold text-gray-400  hover:scale-105 transition-all duration-400">About</a>
+              
+            <div className='hover:scale-105 transition-all duration-400'>
+            <Link to="/about"><a href='https://resume-qeerser.vercel.app/' className="text-xl font-semibold text-gray-400  ">About</a></Link>
+            </div>
             <span className="h-10 border border-l-gray-400 mx-4"></span>
-            <a href='https://resumette-two.vercel.app/' className="text-xl font-semibold text-gray-400  hover:scale-105 transition-all duration-400">Resume</a>
+            
+            <a href='https://resume-qeerser.vercel.app/' className="text-xl font-semibold text-gray-400  hover:scale-105 transition-all duration-400">Resume</a>
             </div>
         </nav>
     </>
