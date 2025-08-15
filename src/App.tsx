@@ -21,7 +21,7 @@ function App() {
             </div>
             <span className="h-10 border border-l-gray-400 mx-4"></span>
             
-            <a href='https://resume-qeerser.vercel.app/' className="text-xl font-semibold text-gray-400  hover:scale-105 transition-all duration-400">Resume</a>
+            <a href='https://resume.qeerser.dev/' className="text-xl font-semibold text-gray-400  hover:scale-105 transition-all duration-400">Resume</a>
             </div>
         </nav>
     </>
